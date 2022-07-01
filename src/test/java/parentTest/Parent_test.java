@@ -1,5 +1,6 @@
 package parentTest;
 
+import Pages.GooglePage;
 import org.junit.After;
 import org.junit.Assert;
 import org.junit.Before;
@@ -14,6 +15,7 @@ import static org.hamcrest.CoreMatchers.is;
 public class Parent_test {
 
     public WebDriver webDriver;
+    public GooglePage googlePage;
 
     public Parent_test() {
 
@@ -25,7 +27,7 @@ public class Parent_test {
         webDriver = new ChromeDriver();
         webDriver.manage().window().maximize();
         webDriver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-
+        googlePage = new GooglePage(webDriver);
     }
 
     @After
