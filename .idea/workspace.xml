@@ -5,13 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e2bb1615-f25e-465b-abb9-3cfc0eda6e7b" name="Changes" comment="1">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Features/MyTest.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Pages/LoginPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/BDD/StepDefinion/LoginTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/BDD/TestRunner/Runner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Pages/MapPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Features/MyTest.feature" beforeDir="false" afterPath="$PROJECT_DIR$/Features/MyTest.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chromedriver.exe" beforeDir="false" afterPath="$PROJECT_DIR$/chromedriver.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Pages/GooglePage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Pages/LoginPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/BDD/StepDefinion/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BDD/StepDefintiion/RouteTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/BDD/TestRunner/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BDD/TestRunner/Runner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Google_tests/Google_test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Google_tests/locators.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TDD/Unit.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TDD/UnitTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/parentTest/Parent_test.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,23 +46,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/User/IdeaProjects/Test_project&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "D:/Program/Zavalii_cucumber_map",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="Cucumber Java.Feature: MyTest">
     <configuration name="Feature: MyTest" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="1.2" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/Features/MyTest.feature" />
-      <option name="GLUE" value="BDD.StepDefinion" />
+      <option name="GLUE" value="BDD.StepDefintiion" />
       <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
-      <module name="Test_project" />
+      <module name="Zavalii_cucumber_map" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome" />
       <option name="SUGGESTED_NAME" value="Feature: MyTest" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
@@ -69,8 +76,48 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Runner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Test_project" />
+    <configuration name="Scenario: Map Path Test (1)" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="1.2" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/Features/MyTest.feature" />
+      <option name="GLUE" value="BDD.StepDefintiion" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+      <module name="Zavalii_cucumber_map" />
+      <option name="NAME_FILTER" value="^Map Path Test$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^Map Path Test$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Map Path Test" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: Map Path Test" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="1.2" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/Features/MyTest.feature" />
+      <option name="GLUE" value="BDD.StepDefintiion" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+      <module name="Test_projectSave — копия" />
+      <option name="NAME_FILTER" value="^Map Path Test$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^Map Path Test$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Map Path Test" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Runner (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Zavalii_cucumber_map" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="BDD.TestRunner.*" />
@@ -84,49 +131,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UnitTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Test_project" />
+    <configuration name="Runner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Test_projectSave — копия" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="TDD.*" />
+          <option name="PATTERN" value="BDD.TestRunner.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="TDD" />
-      <option name="MAIN_CLASS_NAME" value="TDD.UnitTest" />
+      <option name="PACKAGE_NAME" value="BDD.TestRunner" />
+      <option name="MAIN_CLASS_NAME" value="BDD.TestRunner.Runner" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UnitTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Test_project" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="TDD.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="TDD" />
-      <option name="MAIN_CLASS_NAME" value="TDD.UnitTest" />
-      <option name="METHOD_NAME" value="test1" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UnitTest.test6" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Test_project" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="TDD.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="TDD" />
-      <option name="MAIN_CLASS_NAME" value="TDD.UnitTest" />
-      <option name="METHOD_NAME" value="test6" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -134,10 +149,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Cucumber Java.Feature: MyTest" />
+        <item itemvalue="JUnit.Runner (1)" />
+        <item itemvalue="Cucumber Java.Scenario: Map Path Test (1)" />
         <item itemvalue="JUnit.Runner" />
-        <item itemvalue="JUnit.UnitTest" />
-        <item itemvalue="JUnit.UnitTest.test6" />
-        <item itemvalue="JUnit.UnitTest.test1" />
+        <item itemvalue="Cucumber Java.Scenario: Map Path Test" />
       </list>
     </recent_temporary>
   </component>
@@ -164,7 +179,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656921325049</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="1">
+      <created>1656929978049</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1656929978049</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

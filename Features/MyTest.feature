@@ -1,11 +1,6 @@
-Feature: Reset functionality on login page of Application
+Feature: Route map
 
-  Scenario: Verification user
-
-    Given Open the Chrome and launch the application
-
-    When Click to link Log In
-
-    When Enter the Username and Password
-
-    Then Click button submit
+  Scenario: Map Path Test
+    Given I am on the openstreetmap
+    When I enter 'Радищева, Київ' in From, enter 'Кембридж' in To,  select 'Bicycle OSRM'
+    Then I click 'Find' button
